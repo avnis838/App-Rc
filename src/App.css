@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.background {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
